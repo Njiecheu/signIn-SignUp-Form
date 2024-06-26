@@ -19,7 +19,7 @@ body, input{
     width: 2000px;
     height: 2000px;
     border-radius: 50%;
-    background: linear-gradient(-45deg, #0ba65a, #0ba65b);
+    background: linear-gradient(45deg, #0ba699, #05f380);
     top: -10px;
     right: 48%;
     transform: translateY(-50%);
@@ -102,7 +102,21 @@ form.sign-up-form{
     outline: none;
     border-radius: 49px;
     cursor: pointer;
-    background-color: #0ba65b;
+    background-color: #05f380;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: .5s;
+}
+.btn-1{
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: #0ba699;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -111,6 +125,9 @@ form.sign-up-form{
 }
 .btn:hover{
     background-color: #11e67f;
+}
+.btn-1:hover{
+    background-color: #0ec7b8;
 }
 .social-text{
     padding: .7rem 0;
@@ -178,6 +195,15 @@ form.sign-up-form{
     padding: 0.7rem 0;
 }
 .btn.transparent{
+    margin: 0;
+    background: none;
+    border: 2px solid #fff;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.btn-1.transparent{
     margin: 0;
     background: none;
     border: 2px solid #fff;
